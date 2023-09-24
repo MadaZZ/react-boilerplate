@@ -11,4 +11,9 @@ const App = () => {
 
 const HotApp = hot(App); 
 
-ReactDOM.render(<HotApp />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <HotApp />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
