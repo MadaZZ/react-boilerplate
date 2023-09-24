@@ -1,0 +1,11 @@
+$primary-color: blue;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px;
+}
